@@ -1,0 +1,64 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Horst Ads · Privacidade</title><meta http-equiv="refresh" content="0;url=index.html#privacidade">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap">
+<style>
+/* Layout: one narrow reading column; site summary, then terms and privacy as anchored sections. */
+:root{--bg:#f6f7f6;--fg:#18201c;--muted:#5b6862;--line:#d9e0dc;--accent:#1d4d3c;
+  --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#101513;--fg:#e7eee9;--muted:#9eada6;--line:#2a3631;--accent:#8fd6b6;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101513;--fg:#e7eee9;--muted:#9eada6;--line:#2a3631;--accent:#8fd6b6;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 var(--body)}
+main{max-width:68ch;margin:0 auto;padding-block:32px 64px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:28px}
+h1{font-size:2rem;font-weight:800;margin:0;letter-spacing:-.01em}
+h2{font-size:1.25rem;margin:0 0 8px;text-wrap:balance}
+h3{font-size:1rem;margin:16px 0 4px}
+p,li{margin:0 0 8px}
+ul{padding-left:20px;margin:0}
+section{border-top:1px solid var(--line);padding-top:20px}
+nav{display:flex;gap:16px;flex-wrap:wrap}
+a{color:var(--accent)}
+.muted{color:var(--muted);font-size:.9rem}
+</style>
+</head><body><main>
+  <header>
+    <h1>Horst Ads</h1>
+    <p>Horst Ads produz vídeos curtos de divulgação de produtos para lojas online e os publica nas contas do próprio dono, Kevin Horst. O app Horst Ads usa a API do TikTok apenas para enviar esses vídeos como rascunho para a conta TikTok do dono, que revisa e publica pelo aplicativo.</p>
+    <p class="muted">Horst Ads creates short product videos and uses the TikTok Content Posting API only to upload them as drafts to the owner's own TikTok account, where the owner reviews and publishes them.</p>
+    <nav><a href="#termos">Termos de uso</a><a href="#privacidade">Política de privacidade</a></nav>
+  </header>
+
+  <section id="termos">
+    <h2>Termos de uso</h2>
+    <p class="muted">Última atualização: 17 de outubro de 2026</p>
+    <h3>1. O serviço</h3>
+    <p>O Horst Ads é uma ferramenta interna de uso pessoal. Ele cria vídeos de produtos e, com a autorização do usuário pelo login do TikTok, envia esses vídeos para a caixa de rascunhos da conta TikTok do usuário.</p>
+    <h3>2. Quem pode usar</h3>
+    <p>O serviço é usado apenas pelo dono do Horst Ads em suas próprias contas. Não é oferecido ao público.</p>
+    <h3>3. Responsabilidades</h3>
+    <p>O usuário revisa cada rascunho antes de publicar e é responsável pelo conteúdo que publica, seguindo os Termos de Serviço e as Diretrizes da Comunidade do TikTok.</p>
+    <h3>4. Cancelamento</h3>
+    <p>O usuário pode retirar a autorização a qualquer momento nas configurações do TikTok, em Segurança e Apps conectados.</p>
+    <h3>5. Contato</h3>
+    <p>Dúvidas sobre estes termos: pelo perfil Horst Ads na Shopee.</p>
+  </section>
+
+  <section id="privacidade">
+    <h2>Política de privacidade</h2>
+    <p class="muted">Última atualização: 17 de outubro de 2026</p>
+    <h3>Dados que recebemos do TikTok</h3>
+    <ul>
+      <li>Informações básicas do perfil (nome de exibição e identificador da conta), para saber em qual conta enviar os rascunhos.</li>
+      <li>O token de acesso que o TikTok entrega após o login, usado só para enviar vídeos.</li>
+    </ul>
+    <h3>Como usamos</h3>
+    <p>Usamos esses dados apenas para enviar vídeos de produtos à conta do próprio usuário. Não vendemos, não compartilhamos e não usamos esses dados para anúncios.</p>
+    <h3>Armazenamento</h3>
+    <p>O token fica guardado como segredo protegido do ambiente de produção e nunca é publicado. Os vídeos enviados ficam na conta TikTok do usuário.</p>
+    <h3>Exclusão</h3>
+    <p>Ao retirar a autorização nas configurações do TikTok, o token deixa de funcionar e é apagado do nosso ambiente.</p>
+    <p class="muted">Horst Ads only receives basic profile info and an access token to upload drafts to the user's own account. Data is never sold or shared. Revoking access in TikTok settings ends it.</p>
+  </section>
+</main>
+</body></html>
