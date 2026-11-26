@@ -1,0 +1,1 @@
+{"permissions":{"allow":["Bash(python3 -I /mnt/project-files/video-teste/trava_receita.py:*)","Bash(python3 -I /mnt/project-files/video-teste/trava_cor.py:*)","Bash(python3 -I /mnt/project-files/video-teste/conferir_gate.py:*)"]}}
